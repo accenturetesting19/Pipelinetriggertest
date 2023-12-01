@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_accenturetesting19_Pipelinetriggertest_1701413745692-push-trigger-input-set
+  identifier: Build_accenturetesting19_Pipelinetriggertest_1701413745692pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_accenturetesting19_Pipelinetriggertest_1701413745692
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
